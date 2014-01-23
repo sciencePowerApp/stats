@@ -1,2 +1,2 @@
-//URLs to the zipf of the repositories of the app (one per line please)
+//URLs to the zips of the repositories of the app (one per line please)
 https://github.com/sciencePowerApp/stats/archive/master.zip
