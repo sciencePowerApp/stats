@@ -1,0 +1,3 @@
+Main page
+<INPUT allowText:true github zip url default:github.com/sciencePowerApp/stats/archive/master.zip name:url>
+<BUTTON calc sendData:url action:github>
