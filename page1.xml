@@ -1,9 +1,12 @@
-bla bla bla bla bla bla bla bla bla bla
+<PAGE>
+<TEXT>bla bla bla bla bla bla bla bla bla bla
 bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla bla bla bla bla bla bla bla bla
-<INPUT rama default:1 name:B><INPUT hello! abc name:A default:4 alignment:left>
-<OUTPUT A*sqrt(pi/B) dp:4 name:output1><OUTPUT A*sqrt(pi/output1) dp:4 name:output2>
-<FORMULA<mathml>
+bla bla bla bla bla bla bla bla bla bla</TEXT>
+<INPUT default="1" name="B">rama</INPUT>
+<INPUT name="A" default="4" alignment="left">hello! abc</INPUT>
+<OUTPUT dp="4" name="output1">A*sqrt(pi/B)</OUTPUT>
+<OUTPUT dp="4" name="output2">A*sqrt(pi/output1)</OUTPUT>
+<FORMULA><mathml>
 <mrow>
 <mrow>
 	<mfrac linethickness="2" mathcolor="#006699">
@@ -24,12 +27,15 @@ bla bla bla bla bla bla bla bla bla bla
 	</mfrac>
 </mrow></mfrac>
 </mrow>
-</mathml>>
-<INPUT banana default:1 name:i3>
-bla bla bla bla bla bla bla bla bla bla
+</mathml>
+</FORMULA>
+<INPUT default="1" name="3"/>
+<TEXT>bla bla bla bla bla bla bla bla bla bla
 bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
 bla bla bla bla bla bla bla bla bla bla
 bla bla bla bla bla bla bla bla bla bla
-bla bla bla bla bla
-<BUTTON calc action:output1> <BUTTON b action:output2>
-<IMAGE width:70% height:20% file:a.png>
+bla bla bla bla bla</TEXT>
+<BUTTON action="output1">calc</BUTTON>
+<BUTTON action="output2">b</BUTTON>
+<IMAGE width="70%" height="20%" file="a.png"/>
+</PAGE>

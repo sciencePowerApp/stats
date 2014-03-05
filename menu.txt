@@ -1,5 +1,0 @@
-<PAGE background:0xFFFFFF shadow:true width:40% alignment:right>
-<BUTTON A background:0xffffff action:lightScheme colour:0x000000> <BUTTON A action:darkScheme background:0x000000 colour:0xffffff>
-<BUTTON A + action:fontBigger> <BUTTON A - action:fontSmaller >
-<BUTTON Image + action:imageBigger> <BUTTON Image - action:imageSmaller >
-<BUTTON name:menu>
