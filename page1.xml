@@ -6,7 +6,7 @@ bla bla bla bla bla bla bla bla bla bla</TEXT>
 <INPUT name="A" default="4" alignment="left">hello! abc</INPUT>
 <OUTPUT dp="4" name="output1">A*sqrt(pi/B)</OUTPUT>
 <OUTPUT dp="4" name="output2">A*sqrt(pi/output1)</OUTPUT>
-<FORMULA><mathml>
+<FORMULA>
 <mrow>
 <mrow>
 	<mfrac linethickness="2" mathcolor="#006699">
@@ -27,8 +27,9 @@ bla bla bla bla bla bla bla bla bla bla</TEXT>
 	</mfrac>
 </mrow></mfrac>
 </mrow>
-</mathml>
 </FORMULA>
+
+<BUTTON sendData="url" action="github"> update stats from github </BUTTON>
 <INPUT default="1" name="3"/>
 <TEXT>bla bla bla bla bla bla bla bla bla bla
 bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla

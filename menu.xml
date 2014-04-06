@@ -1,7 +1,7 @@
 <PAGE background="0xFFFFFF" shadow="true" width="40%" alignment="right">
 
-<BUTTON background="0xffffff" action="lightScheme" colour="0x000000">A</BUTTON>
-<BUTTON action="darkScheme" background="0x000000" colour="0xffffff">A</BUTTON>
+<BUTTON action="lightScheme" background="0xffffff" color="0x000000">A</BUTTON>
+<BUTTON action="darkScheme"  background="0x000000" color="0xffffff">A</BUTTON>
 
 <BUTTON action="fontBigger">A +</BUTTON> 
 <BUTTON action="fontSmaller">A -</BUTTON>
@@ -9,5 +9,5 @@
 <BUTTON action="imageBigger">Image +</BUTTON>
 <BUTTON action="imageSmaller">Image -</BUTTON>
 
-<BUTTON name="menu"/>
+<BUTTON name="menu">(hide)</BUTTON>
 </PAGE>

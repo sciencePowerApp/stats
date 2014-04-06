@@ -1,8 +1,8 @@
-<page>
-<text>Main page
-</text>
+<PAGE>
+<TEXT>Main page
+</TEXT>
 
-<INPUT allowText="true"  default="github.com/sciencePowerApp/stats/archive/master.zip name:url">
+<INPUT allowText="true" name="url" default="github.com/sciencePowerApp/stats/archive/master.zip name:url">
 github zip url
 </INPUT>
 
@@ -10,4 +10,4 @@ github zip url
 <BUTTON sendData="url" action="github"> update stats from github </BUTTON>
 
 <BUTTON goto="page1">do some stats stats baby</BUTTON>
-</page>
+</PAGE>

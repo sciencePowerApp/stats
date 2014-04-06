@@ -1,0 +1,79 @@
+#dark_page{
+	background-color: #000000;
+	margin:10;
+}
+
+#dark_body{
+	background-color: #26292c;
+	color: #c5c8c6;
+	font-style: "serif";
+}
+
+#dark_formula{
+	background-color: #35383c;
+	color: #83a1c1;
+	font-weight: bold;
+}
+
+#dark_output{
+	color: #c96763;
+}
+
+#dark_variables{
+	color: #b6be54;
+	font-weight: bold;
+}
+
+#dark_input{
+	background-color: #35383c;
+	border: 0px;
+	color: #b6be54;
+}
+
+#dark_button{
+	over-color:#345678;
+	down-color: #666666;
+	background-color: #f2f2f2;
+	border: 0px;
+	color: #738d4f;
+}
+
+#light_page{
+	background-color: #ffffff;
+	margin:10;
+}
+
+#light_body{
+	background-color: #ffffff;
+	color: #4d4d4d;
+	font-style: "typewriter";
+}
+
+#light_formula{
+	background-color: #123456;
+	color: #456fb3;
+	font-weight: bold;
+}
+
+#light_output{
+	color: #c42b23;
+}
+
+#light_variables{
+	color: #738d4f;
+	font-weight: bold;
+}
+
+#light_input{
+	background-color: #f2f2f2;
+	border: 0px;
+	color: #738d4f;
+}
+
+#light_button{
+	over-color:#345678;
+	down-color: #666666;
+	background-color: #f2f2f2;
+	border: 0px;
+	color: #738d4f;
+}
